@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reg.css">
+    <title>Вход</title>
+</head>
+<body>
+    <div class="card-title">
+        <h1>Для входа введите данные вашей карточки!</h1>
+        <div class="card">
+            <input type="number" placeholder="Введите номер карты..." class="holder" id="numField">
+            <div>
+                <input type="number" placeholder="Введите срок действия карты..." class="sholder" id="timeField">
+                <input type="number" placeholder="Введите CVV код..." class="sholder" id="cvvField">
+            </div>
+            <input type="button" value="Войти" class="holder" onclick="login()">
+        </div>
+        <h1 id="enterData"></h1>
+    </div>
+    <script src="src/login.js"></script>
+</body>
+</html>

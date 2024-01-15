@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Сайт короче</title>
+</head>
+<body>
+
+    <h1>Какая-то компьютерная хрень...</h1>
+
+    <table border="1">
+        <tr>
+            <th rowspan="2">Устройства ввода</th>
+            <td>Процессор</td>
+            <td><img src="процессор.jpg"></td>
+        </tr>
+        <tr>
+            <td>Удлинитель</td>
+            <td><img src="удлинитель.jpeg"></td>
+        </tr>
+        <tr>
+            <th rowspan="3">Устройства вывода</th>
+            <td>Корпус</td>
+            <td><img src="корпус.jpg"></td>
+        </tr>
+        <tr>
+            <td>Материнская плата</td>
+            <td><img src="мама.jpg"></td>
+        </tr>
+        <tr>
+            <td>Мышь</td>
+            <td><img src="мышь.jpg"></td>
+        </tr>
+
+        <tr>
+            <th rowspan="3">Мяу</th>
+            <td>Котик 1</td>
+            <td><img src="котик1.jfif"></td>
+        </tr>
+        <tr>
+            <td>Котик 2</td>
+            <td><img src="котик2.jpg"></td>
+        </tr>
+        <tr>
+            <td>Котик 3</td>
+            <td><img src="котик3.jpg"></td>
+        </tr>
+
+        <tr>
+            <th rowspan="3">Дота 2</th>
+            <td>Даун</td>
+            <td><img src="даун.jfif"></td>
+        </tr>
+        <tr>
+            <td>АВП</td>
+            <td><img src="Awp.webp"></td>
+        </tr>
+        <tr>
+            <td>Введите текст...</td>
+            <td><img src="введите текст.jpg"></td>
+        </tr>
+    </table>
+
+    <div class="bottom-field">
+        <h1 id="message"> </h1>
+        <input type="text" placeholder="Введите ваше имя..." id="input-text">
+        <input type="button" value="Проверить" id="input-btn" onclick="checkName()">
+    </div>
+
+    <div class="bottom-field">
+        <h1>Заказывайте сборки ПК у Романа Шемякина!</h1>
+        <input type="button" value="Заказать" class="order" onclick="order()">
+    </div>
+
+
+    <script src="../src/index.js"></script>
+</body>
+</html>
